@@ -1,16 +1,9 @@
-*{
-  margin: 0;
-  padding: 0;
- box-sizing: border-box;
- }
+* {
+    margin: 0;
+    padding: 0;
+}
 
- nav .row1{  
-  background-color: #131921;
-  color: white;
-  width:100vw;
-  height: 20vh;
- }
-
- nav .row1 .logo h3{
-  font-size: 100%;
- }
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
