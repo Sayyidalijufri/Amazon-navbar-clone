@@ -7,3 +7,27 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+
+/* nav */
+
+#nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    color: rgb(233, 228, 220);
+    height: 50px;
+    padding-top: 10px;
+    flex-direction: row;
+}
+
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
